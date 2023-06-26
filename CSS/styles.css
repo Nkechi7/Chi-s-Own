@@ -1,0 +1,252 @@
+body{
+   font-family: 'Tiro Telugu', serif;
+   margin: 0%;
+   padding: 0%;
+   width: 100%;
+}
+h1, h2, h3{
+   font-family: 'Montserrat';
+   font-weight:500 ;
+ }
+
+/*SECTION A*/
+
+ 
+#Sect-1{
+   padding: 100px;
+   background-color:#F6F4E8;
+   z-index:4;
+}
+
+/*navbar*/
+
+.navbar{
+   padding: 0.5px;
+   background-color:#D5B4B4;
+}
+.navbar-logo{
+   font-size:3em;
+   color: #F6F4E8;
+   padding: 10px 100px;
+   font-family: 'Comforter', cursive;
+}
+.nav-item{
+   padding: 10px 100px;
+ }
+.nav-link, .active{
+   color: #F6F4E8;
+}
+.nav-link{
+   font-family: 'Montserat';
+   font-size: 1.2em;
+   font-weight:100 ;
+   color: #867070;
+ }
+ .nav-link:hover{
+   color: #dbe0dd;
+}
+
+ /*title*/
+ 
+.title{
+   padding:5% 3%;
+}
+ .heading-image{
+   width: 120%;
+   padding:7% 15%;
+   position: relative;
+}
+.vertical {
+      border-left: 3px solid #BACEC1;
+      height: 70px;
+      position: relative;
+      left: 50%;
+      top: 2%;
+      bottom: 2%;
+    }
+.heading-text{
+   line-height: 1.5; 
+   font-size: 4.5rem; 
+   padding:7% 10%;
+   text-align: center;
+ }
+ .head-h1{
+   font-family: 'Noto Serif', serif;
+ }
+.head-h4{
+   padding: 10% 0;
+}
+
+/*SECTION B*/
+
+#Testimonials{
+   padding-bottom: 70px;
+   background-color:#F4ECEC;
+   z-index:4;
+}
+#Testimonials::before{
+   transform-origin: left bottom;
+   transform: skewY(-5deg);
+}
+#Testimonials::after{
+   transform-origin: right bottom;
+   transform: skewY(5deg);
+}
+.section-grey{
+   width: 100%;
+   position: relative;
+}
+.section-grey::before, .section-grey::after{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+   background: #F4ECEC;
+   content: '';
+   bottom: 0;
+}
+
+/*TES CONTENT*/
+
+.Tes-h2{
+ font-size: 3rem;
+ text-align: center;
+ color: #867070;
+}
+.carousel-indicator{
+   border-radius: 50%;
+   
+}
+.carousel-inner{
+   position: relative;
+   text-align: center;
+}
+.container-fluid{
+   padding: 5% 13%;
+ }
+ .carl{
+  height: 25px;
+  width: 25px;
+  background-color:#df9494;
+  border-radius: 50%;
+ }
+
+.dvi{
+   position: absolute;
+   background-color: #BACEC1;
+   width: 1000px;
+   height:700px ;
+   border-radius: 25px;
+}
+.tes-image{
+   position: relative;
+   width: 1000px;
+   padding: 50px;
+   left: 3px;
+   text-align: center;
+}
+.link-button{
+   position: relative;
+}
+a:link, a:visited {
+   text-decoration: none;
+ }
+ .button-link{
+   margin: 0%;
+   background-color: #D5B4B4;
+}
+.button-link:hover{
+   background: rgb(213,180,180);
+  background: linear-gradient(0deg, rgba(213,180,180,1) 0%, rgba(232,168,183,1) 100%);
+}
+.link-text{
+   text-align: center;
+   font-size: 1.3rem;
+   line-height: 1.5;
+   color: #F6F4E8;
+}
+
+/*HOBBIES*/
+.Hobbies{
+   background-color: #F6F4E8;
+}
+.hob{
+    padding:5%;
+}
+.hobb{
+   padding: 5% 1% 5% 3%;
+}
+/*hob-texts*/
+.hob-text{
+   padding: 10% 0 0% 10%;
+}
+.hobb-text{
+   padding: 10% 10% 0 10% ;
+}
+.hob-title{
+   text-align: center;
+}
+
+/*Hob-images*/
+.container {
+   width: 500px;
+   height: 300px;
+   position: relative;
+   margin: 30px;
+ }
+ .box {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   
+ }
+ .overlay {
+   z-index: 9;
+   margin: 200px;
+   width: 60%;
+   height: 60%;
+   opacity: 0.9;
+ }
+ .overlay:hover{
+   opacity: 10;
+ }
+ .sub-image{
+   padding: 5px;
+   text-align: left;
+   color: #bb5858;
+ }
+ /* FOR */
+ 
+  .for{
+   z-index: 9;
+   margin: 200px;
+   width: 60%;
+   height: 60%;
+   opacity: 0.7;
+   background-color: #BACEC1;
+  }
+  .BTS{
+   z-index: 9;
+   margin: 200px;
+   width: 60%;
+   height: 60%;
+   opacity: 0.9;
+  }
+
+/* Footer */
+
+#Contacts{
+   background-color: #BACEC1;
+   padding: 7% 13%;
+}
+.footer{
+   text-align: center;
+   color: #F4ECEC;
+}
+.footer-icon{
+   color: #F6F4E8;
+   margin: 20px 10px;
+ }
+ 
